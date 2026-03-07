@@ -1,5 +1,4 @@
-Um die in der environment.yml aufgelisteten Pakete zu installieren und die Umgebung exakt so nachzubauen, nutzt du diesen Befehl:
-
+Um die aufgelisteten Pakete zu installieren und die Umgebung exakt so nachzubauen, nutzt du die unten aufgezählten Befehle:
 ```
 conda create -n vit python=3.12 -y 
 conda activate vit
@@ -13,7 +12,8 @@ conda install conda-forge::plotly
 ```
 
 Kernel aufsetzen:
-```conda activate vit
+```
+conda activate vit
 python -m ipykernel install --user --name vit --display-name "vit"
 ```
 
