@@ -2,7 +2,7 @@ Um die in der environment.yml aufgelisteten Pakete zu installieren und die Umgeb
 
 ```
 conda create -n vit python=3.12 -y 
-conda activate vit`
+conda activate vit
 pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu128
 conda install -c conda-forge numpy scipy pandas matplotlib seaborn
 conda install conda-forge::torchmetrics
@@ -13,8 +13,9 @@ conda install conda-forge::plotly
 ```
 
 Kernel aufsetzen:
-`conda activate vit`
-`python -m ipykernel install --user --name vit --display-name "vit"`
+```conda activate vit
+python -m ipykernel install --user --name vit --display-name "vit"
+```
 
 zum Testen:
 ```
